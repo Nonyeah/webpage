@@ -1,0 +1,61 @@
+.top-banner {
+    height: 100px;
+    background-color: gold;
+   
+}
+
+.top-banner p{
+   
+    transform: translate(45%, 150%);
+   font: 20px georgia;
+   font-weight: bold;
+   
+}
+
+.body-container {
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-around
+}
+
+.container-1{
+    position: relative;
+    width: 45%;
+    background-color: blueviolet;
+    height: 300px;
+}
+
+.container-2 {
+    position: relative;
+    width: 45%;
+    background-color: aqua;
+    height: 300px;
+}
+
+
+
+.container-1 p, .container-2 p {
+   position: absolute;
+   top: 40%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 30px;
+
+}
+
+.footer{
+    background-color: plum;
+    height: 100px;
+    position: relative;
+}
+
+.footer p{
+    position: absolute;
+    top: 30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
