@@ -18,8 +18,13 @@
     height:auto;
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
-    text-transform: capitalize;
+    text-transform: uppercase;
 
+}
+
+.top-banner li a{
+    color: #000;
+    text-decoration: none;
 }
 
 .body-container {
