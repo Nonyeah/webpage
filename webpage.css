@@ -19,14 +19,14 @@
 }
 
 .container-1{
-    position: relative;
+   
     width: 45%;
     background-color: blueviolet;
     height: 300px;
 }
 
 .container-2 {
-    position: relative;
+   
     width: 45%;
     background-color: aqua;
     height: 300px;
@@ -34,13 +34,10 @@
 
 
 
-.container-1 p, .container-2 p {
-   position: absolute;
-   top: 40%;
-   left: 50%;
-   transform: translate(-50%, -50%);
+.container-1 h1, .container-2 h1 {
    font-family: Georgia, 'Times New Roman', Times, serif;
    font-size: 30px;
+   text-align:center;
 
 }
 
@@ -58,4 +55,10 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
     font-size: 30px;
+}
+
+.container-1 .small-text, .container-2 .small-text {
+    font: 14px arial;
+    font-weight:normal;
+    margin: 0 20px;
 }
