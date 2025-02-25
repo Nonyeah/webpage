@@ -48,21 +48,32 @@
 .footer{
     background-color: plum;
     height: 100px;
-    position: relative;
 }
 
-.footer p{
-    position: absolute;
-    top: 30%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-}
+
 
 .container-1 .small-text, .container-2 .small-text {
     font: 14px arial;
     font-weight:normal;
     margin: 0 20px;
+}
+
+
+.footer ul{
+    
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    list-style-type: none;
+    height: inherit
+}
+
+.bottom-nav li{
+   
+    width: 15%;
+    height:auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-transform: capitalize;
+    
 }
