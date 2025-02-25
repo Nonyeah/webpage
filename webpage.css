@@ -4,11 +4,22 @@
    
 }
 
-.top-banner p{ 
-    transform: translate(45%, 150%);
-   font: 20px georgia;
-   font-weight: bold;
+.top-banner ul{ 
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    list-style-type: none;
+    height: inherit
    
+}
+
+.top-banner li{
+    width: 15%;
+    height:auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-transform: capitalize;
+
 }
 
 .body-container {
